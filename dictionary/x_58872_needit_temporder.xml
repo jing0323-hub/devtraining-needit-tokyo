@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8c09d842d39311105f2246c7c0085163" extends="task" label="TempOrder" max_length="40" name="x_58872_needit_temporder" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="product 1" label="product" mandatory="true" max_length="40" name="u_choice_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="product 1" sequence="0" value="product 1"/>
+                <element inactive_on_update="false" label="product 2" sequence="1" value="product 2"/>
+                <element inactive_on_update="false" label="product 3" sequence="2" value="product 3"/>
+            </choice>
+        </element>
+        <element label="quantity" mandatory="true" max_length="40" name="u_integer_3" type="integer"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Price" mandatory="true" max_length="20" name="u_price_2" type="price"/>
+    </element>
+</database>
