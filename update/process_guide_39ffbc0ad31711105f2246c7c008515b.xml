@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="process_guide">
+    <process_guide action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced_condition/>
+        <condition table="x_58872_needit_temporders">u_price_2&lt;javascript:global.getCurrencyFilter('x_58872_needit_temporders','u_price_2', 'JPY;1000')^approval=requested^EQ<item endquery="false" field="u_price_2" goto="false" newquery="false" operator="&lt;" or="false" value="javascript:global.getCurrencyFilter('x_58872_needit_temporders','u_price_2', 'JPY;1000')"/>
+            <item display_value="Requested" endquery="false" field="approval" goto="false" newquery="false" operator="=" or="false" value="requested"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name>tempOrderSAutoApproved</name>
+        <on_insert>true</on_insert>
+        <on_update>true</on_update>
+        <order>100</order>
+        <start display_value="autoApproved">2a30814ad31711105f2246c7c00851d1</start>
+        <sys_class_name>process_guide</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-22 15:06:37</sys_created_on>
+        <sys_id>39ffbc0ad31711105f2246c7c008515b</sys_id>
+        <sys_name>tempOrderSAutoApproved</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>process_guide_39ffbc0ad31711105f2246c7c008515b</sys_update_name>
+        <table>x_58872_needit_temporders</table>
+    </process_guide>
+</record_update>

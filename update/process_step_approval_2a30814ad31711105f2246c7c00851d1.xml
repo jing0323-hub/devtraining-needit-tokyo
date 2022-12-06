@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="process_step_approval">
+    <process_step_approval action="INSERT_OR_UPDATE">
+        <approval_goto/>
+        <approval_script/>
+        <approver_script><![CDATA[current.approval="approved";
+//current.setValue('approval','approved');
+//gs.addInfoMessage(current.approval);
+//current.update();
+]]></approver_script>
+        <control>ANY</control>
+        <group_list/>
+        <name>autoApproved</name>
+        <on_approval>approve</on_approval>
+        <on_rejection>reject</on_rejection>
+        <process_guide display_value="tempOrderSAutoApproved">39ffbc0ad31711105f2246c7c008515b</process_guide>
+        <rejection_goto/>
+        <rejection_script/>
+        <sys_class_name>process_step_approval</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-22 15:07:42</sys_created_on>
+        <sys_id>2a30814ad31711105f2246c7c00851d1</sys_id>
+        <sys_name>autoApproved</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>process_step_approval_2a30814ad31711105f2246c7c00851d1</sys_update_name>
+        <user_list/>
+    </process_step_approval>
+</record_update>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="44e2b42ad31391105f2246c7c008515e" extends="task" label="TempOrderT" max_length="40" name="x_58872_needit_tempordert" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="product 1" label="product" mandatory="true" max_length="40" name="u_choice_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="product 1" sequence="0" value="product 1"/>
+                <element inactive_on_update="false" label="product 2" sequence="1" value="product 2"/>
+                <element inactive_on_update="false" label="product 3" sequence="2" value="product 3"/>
+            </choice>
+        </element>
+        <element label="price" mandatory="true" max_length="40" name="u_integer_1" type="integer"/>
+    </element>
+</database>

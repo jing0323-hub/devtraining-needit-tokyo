@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_approvals">
+    <sysrule_approvals action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_58872_needit_temporder">u_price_2&lt;javascript:global.getCurrencyFilter('x_58872_needit_temporder','u_price_2', 'JPY;1000')^approval=requested^EQ<item endquery="false" field="u_price_2" goto="false" newquery="false" operator="&lt;" or="false" value="javascript:global.getCurrencyFilter('x_58872_needit_temporder','u_price_2', 'JPY;1000')"/>
+            <item display_value="Requested" endquery="false" field="approval" goto="false" newquery="false" operator="=" or="false" value="requested"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <group/>
+        <match_conditions>ALL</match_conditions>
+        <name>tempOrderAutoApproved</name>
+        <optional_group/>
+        <order>100</order>
+        <run_rule_before>true</run_rule_before>
+        <script/>
+        <set_state>approved</set_state>
+        <sys_class_name>sysrule_approvals</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-22 13:25:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>05a6e00ed39311105f2246c7c0085182</sys_id>
+        <sys_name>tempOrderAutoApproved</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sysrule_approvals_05a6e00ed39311105f2246c7c0085182</sys_update_name>
+        <table>x_58872_needit_temporder</table>
+        <user display_value="Beth Anglin">46d44a23a9fe19810012d100cca80666</user>
+    </sysrule_approvals>
+</record_update>
